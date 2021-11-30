@@ -1,0 +1,16 @@
+.color {
+  background-color: tomato;
+  height: 100px;
+  width: 100px;
+}
+.color1 {
+  background-color: plum;
+  height: 100px;
+  width: 100px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

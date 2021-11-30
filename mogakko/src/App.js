@@ -1,7 +1,16 @@
-import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Explore from "./pages/Explore";
+import Subscription from "./pages/Subscription";
 
 function App() {
-  return <div>시작</div>;
+  return (
+    <Routes>
+      <Route path="/" exact={true} element={<Home />} />
+      <Route path="/explore" element={<Explore />} />
+      <Route path="/subscription" element={<Subscription />} />
+    </Routes>
+  );
 }
 
 export default App;
